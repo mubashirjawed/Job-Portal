@@ -2,20 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
 
 @layer base {
   body {
-    background: linear-gradient(
-      to right,
-      rgb(15, 23, 42),
-      rgb(88, 28, 135),
-      rgb(15, 23, 42)
-    );
+    background: linear-gradient(to right, rgb(15, 23, 42), rgb(88, 28, 135), rgb(15, 23, 42));
   }
 }
